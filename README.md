@@ -7,11 +7,13 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/2ebe930bdb2803dbfdbb/maintainability)](https://codeclimate.com/github/odahcam/bootoast/maintainability)
 
 
-# Bootoast 🔥
+# Bootoast-fa 🔥
 
 > A [*Boot*][0]strap T[*oast*][1]er library.
 > 
 > Make your toast notifications with **Bootstrap 3 or 4** `alert`s.
+>
+> Modified to use Font Awesome icons instead of Glyphicons
 
 
 ## [Demo!][3]
@@ -39,7 +41,7 @@ Option | Default Value | Descrition
 :--- | :--- | :---
 `message` | `'Helo!'` | Any, **any**, HTML String!
 `type` | `'info'` | A raw string that can be any of Bootstrap 3 alert type classes without the `alert-` preffix. [Available types](#types).
-`icon` | based on choosen `type` OR `undefined` | An icon following the standard Bootstrap 3 glyphicons name without the `glyphicon-` preffix. [Icons choosen by type](#icon-defaults).
+`icon` | based on choosen `type` OR `undefined` | An icon following the standard Font Awesome name without the `fa-` prefix. [Icons choosen by type](#icon-defaults).
 `position` | `'bottom-center'` | A raw string with two segments of align separated by hypehn follo0wing the pattern: `vertical-horizontal`. [Supported positions](#supported-positions).
 `timeout` | `false` | The time in seconds for hide the notification (`.alert` element). If `false` or `0`, the notification will not auto-hide. 
 `dismissible` | `true` | Shows or hides the dismiss &times; button. It can be `true` or `false`.
